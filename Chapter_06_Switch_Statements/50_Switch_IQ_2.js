@@ -1,0 +1,14 @@
+/*
+ * File: 50_Switch_IQ_2.js
+ * Purpose: Demonstrates switch IQ 2
+ */
+let value = "5";
+
+switch (value) {
+    case 5:
+        console.log("Number 5 matched");
+        break;
+    case "5":
+        console.log("String '5' matched");
+        break;
+}
